@@ -1,0 +1,8 @@
+1. Prepare the training data set using pre-processing on the raw data. First we want to take
+the dataset that contains the information that is called raw data. After we check for
+missing values and outliers and noisy data in the given dataset, we remove all of them.
+2. Identify useful attributes for classification In this all four attributes are useful for the
+classification.
+3. Later we reduce our dataset to have only past 20 years’ data and train our neural network
+using BPN and random incremental training model.
+4. Later, we test our trained ANN.

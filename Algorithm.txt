@@ -1,0 +1,23 @@
+Back Propagation Algorithm:
+
+1. The network is first initialized by setting up all its weights to be small random numbers say
+between 0 and 1.
+2. The input pattern is applied, and the output calculated (this is called the forward pass). The
+Calculation gives an output which is completely different to what actually needed (the Target),
+since all the weights are random.
+3. We then calculate the Error of each neuron, which is essentially: Target – Actual Output. This
+error is then used mathematically to change the weights in such a way that the error will get
+smaller.
+4. The Output of each neuron will try to get closer to its Target (this part is called the reverse
+pass). This process is repeated again and again until the error is minimum.
+
+
+RANDOM ORDER INCREMENTAL ALGORITHM:
+
+For each epoch, all training vectors (or sequences) are each presented once in a different random
+order, with the network and weight and bias values updated accordingly after each individual
+presentation.
+Training stops when any of these conditions is met:
+• The maximum number of epochs (repetitions) is reached.
+• Performance is minimized to the goal.
+• The maximum amount of time is exceeded.

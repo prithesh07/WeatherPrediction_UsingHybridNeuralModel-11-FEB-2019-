@@ -1,0 +1,7 @@
+Data are collected from four different cities namely:
+• Bombay
+• Calcutta
+• Delhi
+• Chennai
+With four variables in each including year, data etc. and approximately 6000 instances in each.
+This dataset has been collected from uc-repository
